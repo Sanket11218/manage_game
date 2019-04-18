@@ -1,4 +1,4 @@
-var Api = "http://127.0.0.1:8026/";
+var Api = "https://managegame.herokuapp.com/";
 
 
 function method_call_post(end_point,data){
