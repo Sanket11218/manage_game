@@ -94,7 +94,7 @@
           <entry key="Django Console" value="1" />
           <entry key="html" value="38" />
           <entry key="js" value="1" />
-          <entry key="py" value="62" />
+          <entry key="py" value="69" />
           <entry key="txt" value="29" />
         </counts>
       </usages-collector>
@@ -103,7 +103,7 @@
           <entry key="HTML" value="38" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="63" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
     </session>
@@ -132,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/foosball/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="126" column="54" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
+              <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -547,7 +547,7 @@
     <entry file="file://$PROJECT_DIR$/foosball/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="126" column="54" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
+          <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
         </state>
       </provider>
     </entry>
