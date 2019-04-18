@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 from whitenoise.django import DjangoWhiteNoise
+from os.path import normpath,dirname
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -129,9 +131,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+BASE_DIR = dirname(dirname(abspath(__file__)))
+STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    path.join(BASE_DIR, 'static'),  # Important for Heroku
+)
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-
-application = DjangoWhiteNoise('foosball')
