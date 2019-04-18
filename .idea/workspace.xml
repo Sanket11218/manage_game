@@ -94,7 +94,7 @@
           <entry key="Django Console" value="1" />
           <entry key="html" value="38" />
           <entry key="js" value="1" />
-          <entry key="py" value="110" />
+          <entry key="py" value="112" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
@@ -103,7 +103,7 @@
           <entry key="HTML" value="38" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="111" />
+          <entry key="Python" value="113" />
         </counts>
       </usages-collector>
     </session>
@@ -140,8 +140,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foosball/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="221">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="e#313#322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -563,8 +566,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foosball/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#313#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
