@@ -1,1 +1,1 @@
-web: gunicorn Foosball.wsgi:application --log-file -
+web: gunicorn foosball.wsgi:application --log-file -
