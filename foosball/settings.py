@@ -11,8 +11,9 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from os import path
 from whitenoise.django import DjangoWhiteNoise
-from os.path import normpath,dirname
+from os.path import normpath,dirname,abspath
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
