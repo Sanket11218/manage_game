@@ -1,2 +1,2 @@
-web: gunicorn --chdir foosball --log-file - boosball.wsgi:application
+web: gunicorn --chdir foosball --log-file - foosball.wsgi:application
 
