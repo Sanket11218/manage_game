@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34fb5d7-8285-4d5b-b25b-a9179a002a31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foosball/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foosball/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
           <entry key="Django Console" value="1" />
           <entry key="html" value="38" />
           <entry key="js" value="1" />
-          <entry key="py" value="98" />
+          <entry key="py" value="108" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
@@ -104,7 +104,7 @@
           <entry key="HTML" value="38" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="99" />
+          <entry key="Python" value="109" />
         </counts>
       </usages-collector>
     </session>
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foosball/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="133" column="44" lean-forward="true" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+            <state relative-caret-position="381">
+              <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -564,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foosball/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="133" column="44" lean-forward="true" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+        <state relative-caret-position="381">
+          <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
         </state>
       </provider>
     </entry>

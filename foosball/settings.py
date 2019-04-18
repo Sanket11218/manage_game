@@ -127,19 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "foosball.settings")
-
-
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
 STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise
-application = get_wsgi_application()
-application = DjangoWhiteNoise(application)
+application = DjangoWhiteNoise('foosball')
