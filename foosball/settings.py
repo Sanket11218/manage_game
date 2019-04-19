@@ -133,12 +133,15 @@ USE_TZ = True
 
 
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-BASE_DIR = dirname(dirname(abspath(__file__)))
-STATIC_ROOT = 'static'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    path.join(BASE_DIR, 'static'),  # Important for Heroku
+    os.path.join(BASE_DIR, 'static'),
 )
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root')
+
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 

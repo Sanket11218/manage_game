@@ -2,7 +2,11 @@ from django.conf.urls import url
 from django.urls import path
 from manage_team import views
 
+
+
 app_name = 'manage_team'
+
+
 
 urlpatterns = [
     path('',views.index,name='index'),
