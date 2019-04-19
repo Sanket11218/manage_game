@@ -36,11 +36,7 @@ class TeamInfo(models.Model):
     game_name = models.ForeignKey(GameInfo, on_delete=models.CASCADE)
     team_points = models.IntegerField(default=0)
 
-    def save(self, *args, **kwargs):
-        game_info_obj = GameInfo.objects.filter(game_name=self.game_name).first()
-        game_info_obj.max_teams = game_info_obj.max_teams - 1
-        game_info_obj.save()
-        super(TeamInfo, self).save(*args, **kwargs)
+    
 
     def __str__(self):
         return self.team_name
