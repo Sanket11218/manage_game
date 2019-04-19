@@ -47,8 +47,6 @@ class TeamSerializer(DynamicFieldsModelSerializer):
             game_name=validated_data.get('game_name')).first()
         game_info_obj.max_teams = game_info_obj.max_teams - 1
         game_info_obj.save()
-        super(TeamInfo, self).save(*args, **kwargs)
-
         return TeamInfo.objects.create(**validated_data)
 
 
