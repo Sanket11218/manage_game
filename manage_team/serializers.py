@@ -43,6 +43,12 @@ class TeamSerializer(DynamicFieldsModelSerializer):
                 'max_teams', flat=True)[0] <= 0:
             raise serializers.ValidationError("No Slots Left")
 
+        game_info_obj = GameInfo.objects.filter(
+            game_name=validated_data.get('game_name')).first()
+        game_info_obj.max_teams = game_info_obj.max_teams - 1
+        game_info_obj.save()
+        super(TeamInfo, self).save(*args, **kwargs)
+
         return TeamInfo.objects.create(**validated_data)
 
 
